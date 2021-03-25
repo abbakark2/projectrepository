@@ -1,0 +1,369 @@
+*{	margin:0; padding:0; }
+/*HEADER STYLES___________HEADER STYLES___________HEADER STYLES___________HEADER STYLES___________HEADER STYLES*/
+.login-table{
+	
+	padding:10px;
+	margin:10px 0 0 0;
+	}
+#headertable{
+	margin: auto;
+	width: 100%;
+	background-color:#2A0055; //#2A00FF;
+	//margin-bottom:2em;
+	}
+	
+#headertable tr td h1 {
+	color: #33FFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 43px;
+
+	
+}
+.tblhead{
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#banner {
+	background-color: #4C4C4C;
+	opacity: 0.68;
+}
+
+/*BODY STYLES ________________BODY STYLES_________________BODY STYLES________________BODY STYLES________________*/
+
+body{
+	backface-visibility: visible;
+	background-color: #00BFFF;
+	background-repeat: round;
+	font-family: Cambria;
+	line-height: 1.5;
+}
+
+p{text-align:justify;
+	font-size:20px;}
+
+#logo{
+	
+	margin-top: 4%;
+	width: 150px;
+	height: 150px;
+	}
+	
+td img{
+	/*border-bottom-left-radius: 45px;
+	background-color:#ABB1AB;*/	
+}
+
+#bodydiv, #indexbodydiv{
+	min-height:300px;
+	margin-top:3%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: solid black 0px;
+	border-radius: 14px;
+	background-color: #FFFBF0;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	}
+
+.txtinput{
+	width: 80%;
+	height: 30px;
+	border: groove #036 2px;
+	border-radius: 15px;
+	padding-left: 15px;
+}
+.txtinput:hover{
+	border:solid #00F 2px;
+	}
+
+h1{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 43px;
+	}
+h2 {
+	text-align: center;
+}
+
+.userlink{float:right;}
+.logout{
+		float:right;
+		text-decoration:none;
+		}
+.login_u_p{ font-size:18px; }	
+	
+#loginbutton{
+	float:right;
+	}
+/*_____________________SEARCH_____________________SEARCH_____________________SEARCH_____________________SEARCH*/
+.search{
+	float:right;
+	/*border:#FF0000 2px solid;*/
+	position:static;
+	margin-top:1%;
+}
+.search-div{
+	margin-bottom: 20px;
+	border-bottom-width: 4px;
+	border-style: outset;
+	padding-top: 4%;
+	padding-right: 4%;
+	padding-bottom: 4%;
+	padding-left: 4%;
+	background-color: #EAE9E1;
+	border-bottom-color: #2A7FAA;
+	-webkit-box-shadow: 10px 10px #2A7FFF;
+	box-shadow: 10px 10px #2A3F55;
+}
+/*=========MENU=====MENU==========MENU=============MENU==========MENU============MENU========MENU==========*/
+
+.div_hmenu{
+	/*background-color: rgb(92,92,128);*/
+	margin:0 auto;
+	background-color:#2A3F55;
+	//height: 50px;
+	padding-left: 15%;
+	padding-right:0;
+	overflow:auto;
+	 }
+	 
+
+
+ul li{
+	margin-bottom:2px;
+	margin-top:3px;
+	list-style: none;
+	background-color: #2A3F55;
+	float: left;
+	
+	border-radius: 1px;
+	-webkit-box-shadow: inset 4px -4px 4px 4px #7FBFFF;
+	box-shadow: inset 4px -4px 4px 4px #7FBFFF;
+	}
+
+ul li:hover{background-color:white;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	border-top:2px;
+	border-color:red;
+	border-style:solid;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	line-height: 45px;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+ul li a:hover{color:rgb(0,0,204);}
+
+ul li a:active {
+	background-color: #0000FF;
+	color: #FFFFFF;	
+}
+/**************************************************************************************************
+**	vertical menu css																		 	***
+**************************************************************************************************/
+	.div_vmenu{	position:relative;left:5%; background-color:#553F00; width:15%; }
+	.ul_vmenu{margin:0px; padding:0px;}
+	.li_vmenu{list-style:none;}
+	.li_vmenu:hover{background-color:rgb(92,92,128);}
+	.a_vmenu{
+		padding-left:5%;
+		text-decoration:none;
+		color:white;
+		font-size:14px;
+		line-height:45px;
+		display:block;
+	}
+	.a_vmenu:hover{color:rgb(0,0,204);}
+	.a_vmenu:active { background-color: red;}
+/**************************************************************************************************
+**	End of vertical menu css																	***
+**************************************************************************************************/
+textarea{background-color:#D6D6D6;}
+.comboBox{background-color:#CCC;}
+
+#addres{font-family:Tahoma;}
+#table{
+	width:100%;	background-color:#D41F00;
+}
+#button{float:right;
+	color:blue;
+	background-image:url(../image/bac.jpg);}
+#validation{color:#red;}
+
+.footer{
+	background-color:#2A0055;
+	height:5%;
+	padding-left:200px;
+	top:10px;
+	color:#FFF;	
+}
+#footerlogout{
+	text-decoration:none;
+	color:#0FA; float:right; 
+	margin:2% 10% 0%  0%  ;
+	}
+
+/*########################################################
+#### Welcome Slider Style ##############################*/
+	.wrapper {
+		position: relative;
+		overflow: hidden;
+		width: 600px;
+		height: 40px; 
+	}
+	
+	#slide {
+		position: absolute;
+		left: -600px;
+		width: 600px;
+		height: 40px;
+		-webkit-animation: slide 0.5s forwards;
+		-webkit-animation-delay: 2s;
+		animation: slide 0.5s forwards;
+		animation-delay: 2s;
+	}
+	
+	@-webkit-keyframes slide {
+		100% { left: 0; }
+	}
+	
+	@keyframes slide {
+		100% { left: 0; }
+	}
+/* End of Welcome Slider CSS ___________________________________________________________ */
+
+/**********************************----------------------------------------------------------------*************
+*this is the administrator cascading stylesheet*
+************************************----------------------------------------------------------------***********/
+.adminTable{
+	background-color:#EEE;
+	min-width:80%;
+	border-radius: 1px;
+	-webkit-box-shadow: 8px 8px 8px 10px #BFBFBF;
+	box-shadow: 8px 8px 8px 10px #BFBFBF;
+	}
+table.adminTable td{
+	background-color: white;
+	padding: 10px;
+	border-right: thin ridge #A0A0A4;
+	border-bottom: thin ridge #2A1FAA;
+	border-top-width: thin;
+	border-left-width: thin;
+	border-top-style: inset;
+	border-left-style: ridge;
+	}
+table.adminTable th{
+	padding:5px;
+	color:white;
+	border-bottom-style:groove;
+	background-color: #006;
+	}
+#adminLoginForm{
+	//margin-top:15%;
+	}
+#adminLoginFormdiv{
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:3%;
+		padding:5%;
+		border:solid black 0px;
+		border-radius:14px;
+		background-color:#FFF;
+	}
+.error {
+	color:#F00;
+	font-family:tahoma;
+	font-size:18px;	
+	//text-align:center;
+	}
+.success{
+	color:#00DF00;
+	font-family:tahoma;
+	font-size:18px;	
+	//text-align:center;
+	}
+.div_admin_hmenu ul li ul li {display: none;}
+
+/****************************************************************************************************
+	admin horizontal menustylesheet
+******************************************************************************************************/
+
+.div_admin_hmenu {
+	float: left;
+	padding-right: 9px;
+}
+#homeImage {
+	max-width: 90%;
+	max-height: 90%;
+}
+
+
+@media screen and (max-width:759px) {
+#headertable{
+	margin:0 auto;
+	width:100%;
+}
+#headertable tr td h1, h1{
+	font-size:14px;
+	
+	}
+
+h3{font-size:12px;}
+	
+#logo{
+	margin-top: 4%;
+	width: 50px;
+	height: 50px;
+	}
+
+ul li {
+	float:none;
+	box-shadow:none;
+	border-bottom:solid 2px #0FF;
+}
+body{
+	font-size:10px;
+}
+
+/*menu---------------menu----------------menu-------------------menu------------------------menu---------------------*/
+.div_hmenu{
+	padding:0;
+	background-color:none;
+ }
+ul li a{
+	padding:0 0 0 40%;
+	font-size: 10px;
+}
+
+/*menu-----------------menu------------------menu--------------------------menu------------------menu-------------------*/
+#bodydiv, #indexbodydiv{ margin-left:5%; margin-right:5%;}
+p{font-size:10px;}
+
+.login_u_p{ font-size:10px; }	
+
+
+.txtinput{font-size:10px;}
+
+.error, .success{font-size:10px;}
+
+.footer{padding-left:0;}
+
+.login-table{font-size:10px;}
+
+.adminTable{padding:0;}
+
+table.adminTable td{
+	border-style:none;
+}

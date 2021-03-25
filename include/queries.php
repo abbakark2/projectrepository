@@ -1,0 +1,1 @@
+INSERT INTO `projectrepository`.`supervisors` (`sn`, `name`, `Title`, `level`, `specialization`, `interest`) VALUES (NULL, 'adam', 'mal', 'assistant lecturer', 'software engineering', 'programming');

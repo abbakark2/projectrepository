@@ -1,0 +1,34 @@
+.ul_hmenu{
+	width:auto;
+	}
+
+.li_hmenu{list-style:none;
+	//display:inline-block;
+	float:left;
+	}
+
+.li_hmenu:hover{background-color:white;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	border-top:2px;
+	border-color:red;
+	border-style:solid;
+}
+.a_hmenu{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	line-height: 45px;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.a_hmenu:hover{color:rgb(0,0,204);}
+
+.a_hmenu:active {
+	background-color: #0000FF;
+	color: #FFFFFF;	
+}

@@ -1,0 +1,14 @@
+1. Join two tables that have similar colums
+	=> SELECT * FROM `proposed_topics`, supervisors WHERE proposed_topics.supervisor_id=supervisors.supervisor_id;
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Join two tables by selecting specific colums from each table
+
+2. => SELECT proposed_topics.pro_id,proposed_topics.p_topic,supervisors.Title,supervisors.name,proposed_topics.student_id FROM `proposed_topics`, supervisors WHERE proposed_topics.supervisor_id=supervisors.supervisor_id;
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Syntax: => SELECT * FROM tblstudents
+		JOIN tblResults
+			ON tblstudents.student_id=tblResult_id;
+3.
+4.
+5.

@@ -1,0 +1,252 @@
+/*HEADER STYLES___________HEADER STYLES___________HEADER STYLES___________HEADER STYLES___________HEADER STYLES*/
+#headertable{
+	margin: auto;
+	width: 100%;
+	background-color: #2A00FF;
+	margin-bottom:2em;
+	}
+	
+#headertable tr td h1 {
+	color: #33FFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 43px;
+
+	
+}
+.tblhead{
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#banner {
+	background-color: #4C4C4C;
+	opacity: 0.68;
+}
+
+/*BODY STYLES ________________BODY STYLES_________________BODY STYLES________________BODY STYLES________________*/
+
+body{
+	backface-visibility: visible;
+	background-color: #00BFFF;
+	background-repeat: round;
+	font-family: Cambria;
+	line-height: 1.5;
+	margin:0px;
+}
+
+p{text-align:justify;
+	font-size:20px;}
+
+#logo{
+	margin-left: 15%;
+	margin-top: 4%;
+	width: 40%;
+	height: 40%;
+	}
+	
+td img{
+	/*border-bottom-left-radius: 45px;
+	background-color:#ABB1AB;*/	
+}
+
+#bodydiv, #indexbodydiv{
+	margin-left: 10%;
+	margin-right: 10%;
+	border: solid black 0px;
+	border-radius: 14px;
+	background-color: #FFFBF0;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	}
+
+.txtinput{
+	width: 80%;
+	height: 30px;
+	border: thin #2A1FFF 1px;
+	border-radius: 15px;
+	padding-left: 15px;
+}
+.txtinput:hover{
+	border:solid #00F 2px;
+	}
+
+h1{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 43px;
+	}
+h2 {
+	text-align: center;
+}
+
+.userlink{float:right;}
+.logout{
+		float:right;
+		text-decoration:none;
+		}
+.login_u_p{ font-size:18px; }	
+	
+#loginbutton{
+	float:right;
+	}
+/*=========MENU=====MENU==========MENU=============MENU==========MENU============MENU========MENU==========*/
+.search{
+		float:right;
+		/*border:#FF0000 2px solid;*/
+		position:static;
+		margin-top:1%;
+	}
+.div_hmenu{
+	/*background-color: rgb(92,92,128);*/
+	margin:0 auto;
+	background-color:#2A3F55;
+	height: 50px;
+	padding-left: 15%;
+	padding-right: 10%;
+	 }
+	 
+ul{
+	width:auto;
+		}
+
+ul li{
+	margin-bottom:2px;
+	margin-top:3px;
+	list-style: none;
+	background-color: #2A3F55;
+	//display:inline-block;
+	float: left;
+	border-radius: 1px;
+	-webkit-box-shadow: inset 4px -4px 4px 4px #7FBFFF;
+	box-shadow: inset 4px -4px 4px 4px #7FBFFF;
+	}
+
+ul li:hover{background-color:white;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	border-top:2px;
+	border-color:red;
+	border-style:solid;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	line-height: 45px;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+ul li a:hover{color:rgb(0,0,204);}
+
+ul li a:active {
+	background-color: #0000FF;
+	color: #FFFFFF;	
+}
+/**************************************************************************************************
+**	vertical menu css																		 	***
+**************************************************************************************************/
+	.div_vmenu{	position:relative;left:5%; background-color:#553F00; width:15%; }
+	.ul_vmenu{margin:0px; padding:0px;}
+	.li_vmenu{list-style:none;}
+	.li_vmenu:hover{background-color:rgb(92,92,128);}
+	.a_vmenu{
+		padding-left:5%;
+		text-decoration:none;
+		color:white;
+		font-size:14px;
+		line-height:45px;
+		display:block;
+	}
+	.a_vmenu:hover{color:rgb(0,0,204);}
+	.a_vmenu:active { background-color: red;}
+/**************************************************************************************************
+**	End of vertical menu css																	***
+**************************************************************************************************/
+textarea{background-color:#D6D6D6;}
+.comboBox{background-color:#CCC;}
+
+#addres{font-family:Tahoma;
+		// font-size:20px;}
+#table{
+	width:100%;	background-color:#D41F00;
+}
+#button{float:right;
+	color:blue;
+	background-image:url(../image/bac.jpg);}
+#validation{color:#red;}
+.footer{
+	background-color:rgb(92,92,128);
+	height:5%;
+	padding-left:200px;
+	top:10px;
+	color:#C0C0C0;	
+}
+#footerlogout{
+	text-decoration:none;
+	color:#0FA; float:right; 
+	margin:2% 10% 0%  0%  ;
+	}
+/**********************************----------------------------------------------------------------*************
+*this is the administrator cascading stylesheet*
+************************************----------------------------------------------------------------***********/
+.adminTable{
+	//border-color:red;
+	//empty-cells:hide;
+	background-color: #006;
+	border-radius: 1px;
+	-webkit-box-shadow: 8px 8px 8px 10px #BFBFBF;
+	box-shadow: 8px 8px 8px 10px #BFBFBF;
+	}
+table.adminTable td{
+	background-color:white;	
+	}
+table.adminTable th{
+	color:white;
+	border-bottom-style:groove;
+	background-image:url(../image/backgroundImage.jpg);
+	}
+#adminLoginForm{
+	//margin-top:15%;
+	}
+#adminLoginFormdiv{
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:3%;
+		padding:5%;
+		border:solid black 0px;
+		border-radius:14px;
+		background-color:#FFF;
+	}
+.error {
+	color:#F00;
+	font-family:tahoma;
+	font-size:18px;	
+	//text-align:center;
+	}
+.success{
+	color:#00DF00;
+	font-family:tahoma;
+	font-size:18px;	
+	//text-align:center;
+	}
+.div_admin_hmenu ul li ul li {display: none;}
+
+/****************************************************************************************************
+	admin horizontal menustylesheet
+******************************************************************************************************/
+
+.div_admin_hmenu {
+	float: left;
+	padding-right: 9px;
+}
+#homeImage {
+	max-width: 90%;
+	max-height: 90%;
+}

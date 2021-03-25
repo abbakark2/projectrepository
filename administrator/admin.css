@@ -1,0 +1,323 @@
+/****************************************************************************************************************
+***						this is the administrator cascading stylesheet*
+****************************************************************************************************************/
+/*``````````````````````````````````````````````````````````````````````````````````````````````````````````````*/
+/*_________________Header__________________________________Header_______________________________________________*/
+#headertable{
+    margin: auto;
+	width: 100%;
+	background-color:#2A00FF; //#2A00FF;
+	//margin-bottom:2em;
+	}
+	
+#headertable tr td h1 {
+	color: #33FFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 43px;
+
+	
+}
+.tblhead{
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#banner {
+	background-color: #4C4C4C;
+	opacity: 0.68;
+}
+
+
+#logo{
+    
+	margin-top: 4%;
+	width: 150px;
+	height: 150px;
+	}
+
+/*_____________END>>>>>>>>OF>>>>>>>>>HEAD>>>>>>>>>>>>>END>>>>>OF>>>>>>>HEAD>>>>>>)))__________________________*/
+/*___________________Body_________________________Body_________________________________________________________*/
+body {
+	margin: auto;
+	backface-visibility: visible;
+	background-color: #00BFFF;
+	background-repeat: round;
+	font-family: Cambria;
+	line-height: 1.5;
+}
+
+#bodydiv{
+	width:70%;
+	margin:0 auto;
+	border: solid black 0;
+	border-radius: 14px;
+	background-color: #FFF;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1em;
+	margin-top: 5%;
+	}
+#indexbodydiv{
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 14px;
+	background-color: #FFF;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1em;
+	margin-top: 5%;
+	}
+
+#adminh1{
+	font-family: "monotype corsiva", "Tahoma", "Calibri", "Times New Roman";
+	font-size: 43px;
+	}
+h2 {text-align: center;}
+
+p{text-align:justify;	font-size:20px;}
+
+/*_____________________SEARCH_____________________SEARCH_____________________SEARCH_____________________SEARCH*/
+.search{
+	float:right;
+	/*border:#FF0000 2px solid;*/
+	position:static;
+	margin-top:1%;
+}
+.search-div{
+	margin-bottom: 20px;
+	border-bottom-width: 4px;
+	border-style: outset;
+	padding-top: 4%;
+	padding-right: 4%;
+	padding-bottom: 4%;
+	padding-left: 4%;
+	background-color: #EAE9E1;
+	border-bottom-color: #2A7FAA;
+	-webkit-box-shadow: 10px 10px #2A7FFF;
+	box-shadow: 10px 10px #2A3F55;
+}
+
+/*~~~~~~~~~~END~~~~~~OF~~~~~~BODY~~~~~~~END~~~~~~OF~~~~~~BODY~~~~~~~~~END~~~~~~OF~~~~~~BODY~~~~~~~~~~~~~~~~~*/
+/*============================================================================================================*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~Drop Down MENU~~~~~~~~~~~~~~~~~~~~Drop Down MENU~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*Menu horizontal and drop down menu Css*/
+.vmenu{
+	border:solid #2A00FF 2px;
+/*	background-color: rgb(92,92,128);*/
+	background-color:#2A3F55;
+	margin-top:12px;
+	margin-bottom:2px;
+/*	position:absolute;*/
+}
+.vmenu:hover{	border:solid #3FF 2px;}
+.vmenu .wrapper{
+/*	//border:solid green 2px;
+	position: relative;*/
+	width:500px;
+	margin:0 auto;
+	min-height: 40px;
+    margin-bottom: 0;
+}
+.vmenu ul{
+	list-style-type: none;
+	display: block;
+	margin:0px;
+	padding:0px;
+	position: absolute;
+}
+.vmenu ul li{
+	border-right:ridge 2px #F0F0F0;
+	float:left;
+/*	position:relative;*/
+	
+}
+
+.vmenu ul li a{
+	text-decoration:none;
+	color:#3FF;
+	padding:10px;
+	margin:0px;
+	display:block;
+}
+
+.vmenu ul li a:hover{
+	background-color:#3FF;
+	color:#007F00;
+	}
+.vmenu .wrapper .main_ul ul{
+	float:none;
+	visibility:hidden;
+}
+
+.vmenu ul li:hover> ul li{
+	visibility:visible;
+	background-color:#2A3F55;
+	display:block;
+	float:none;
+	padding:0;
+}
+.vmenu .wrapper .main_ul ul li a{
+	margin:0;
+	padding-bottom:0;
+	padding-left:5px;
+	padding-right:5px;
+	}
+.vmenu .wrapper .main_ul ul li a:hover{
+	color:#FFF;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#2A3F55;
+	display:block;
+	background-color:#55BFFF;
+	}
+
+/*~~~~~~~~~END OF VERTICAL MENU~~~~~~~~~~~~~~~END OF VERTICAL MENU~~~~~~~~~~~~~~~~~~~~~~~~END OF VERTICAL MENU*/
+/*============================================================================================================*/
+/*_____Horizonatal menu___________Horizonatal menu______________Horizonatal menu_________Horizonatal menu_______*/
+
+.div_hmenu{
+	background-color: rgb(92,92,128);
+	width: 100%;
+	height: 50px;
+	padding-left: 20%;
+	padding-right: 20%;
+	 }
+	 
+.ul_hmenu{
+	width:auto;
+	}
+
+.li_hmenu{list-style:none;
+	float:left;
+	}
+
+.li_hmenu:hover{background-color:white;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	border-top:2px;
+	border-color:red;
+	border-style:solid;
+}
+.a_hmenu{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	line-height: 45px;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.a_hmenu:hover{color:rgb(0,0,204);}
+
+.a_hmenu:active {
+	background-color: #0000FF;
+	color: #FFFFFF;	
+}
+/*~~~~~~~~~~~~END ~~~~~~OF~~~~~~ HORIZONTAL~~~~~~ MENU>>>>>>>END ~~~~~~OF~~~~~~ HORIZONTAL~~~~~~ MENU~~~~~~~~~~*/
+/*============================================================================================================*/
+/*`````````````````````FORM===TABLE````````````FORM===TABLE````````````FORM===TABLE```````````FORM===TABLE`````*/
+.tdContent{
+	height: 30px;
+	border: thin #2A1FFF 2px;
+	border-radius: 15px;
+	padding-left: 15px;
+	background-color: #FFFBF0;
+	color: #333;
+	font-weight: bold;
+	font-size: large;
+	}
+.txtinput{
+	width: 80%;
+	height: 30px;
+	border: thin #2A1FFF 2px;
+	border-radius: 15px;
+	padding-left: 15px;
+	margin-right: 0px;
+	background-color: #C0DCC0;
+	color: #333;
+	font-weight: bold;
+	font-size: large;
+}
+.txtinput:hover{
+	border:solid #00F 2px;
+	}
+textarea{background-color:#D6D6D6;}
+
+.comboBox,input{background-color:#CCC;}
+
+#addres{font-family:Tahoma;}
+
+
+.adminTable{background-color:#666;}
+table.adminTable td{
+	background-color:white;	
+	}
+table.adminTable th{
+	color:white;
+	border-bottom-style:groove;
+	background-image:url(../image/backgroundImage.jpg);
+	}
+#adminLoginForm{
+	//margin-top:15%;
+	}
+#adminLoginFormdiv{
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:3%;
+		padding:5%;
+		border:solid black 0px;
+		border-radius:14px;
+		background-color:#FFF;
+	}
+#loginbutton{
+	float:right;
+	}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.error {
+	color:#F00;
+	font-family:tahoma;
+	font-size:18px;	
+	//text-align:center;
+	}
+.success{
+	color:#00DF00;
+	font-family:tahoma;
+	font-size:18px;	
+	//text-align:center;
+	}
+/*`````````````````````````````````````````````````````````````````````````````````````````````````````````````*/
+/*============================================================================================================*/
+/*________~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~______________------------FOOTER------~~~~~~__________________*/
+.footer{
+	background-color:rgb(92,92,128);
+	height:5%;
+	padding-left:200px;
+	top:10px;
+	color:#C0C0C0;	
+}
+
+#footerlogout{
+	text-decoration:none;
+	color:#0FA; float:right; 
+	margin:2% 10% 0%  0%  ;
+	}
+
+.userlink{float:right;}
+
+.logout{
+		float:right;
+		text-decoration:none;
+		}
+.login_u_p{ font-size:18px; }	
+	
+
+/*__________END>>>>>>>OF>>>>>>FOOTER>>>>>END>>>>>>>OF>>>>>>>FOOTER>>>>>>END>>>OF>>>FOOTER>>>>>>>>>>>>>))))))))))*/
